@@ -24,6 +24,14 @@ hr {
 		display: none;
 	}
 }
+@media (min-width: 1024px){
+	.header-logo {
+		font-size: 900%;
+	}
+	.header-subtext {
+		font-size: 300%;
+	}
+}
 .services-bg {
 	background-image: url("../img/bg-trans-1.png"), url("../img/bg4.jpg");
 	background-attachment: scroll, fixed;
