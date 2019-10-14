@@ -36,6 +36,12 @@ hr {
 	font-weight: 600;
 	text-shadow: 3px 3px 0px black;
 }
+.logo-image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 160px;
+}
 .services-text {
 	color: #f15a22;
 	font-size:180%;
