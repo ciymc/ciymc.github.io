@@ -87,12 +87,12 @@ hr {
 }
 .header-bg {
 	background-image: url("../img/bg1.jpg");
+	background-position: 50% 50%;
 	background-attachment:fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
-	background-position: 50% 50%;
 	margin-top:-80px;
 }
 .header-section {
