@@ -16,21 +16,9 @@ body {
 hr {
 	border-bottom: 2px solid #ffffff;
 }
-@media (max-width: 990px) {
-	.services-image-left {
-		display: none;
-	}
-	.services-image-right {
-		display: none;
-	}
-}
-@media (min-width: 1024px){
-	.header-logo {
-		font-size: 900%;
-	}
-	.header-subtext {
-		font-size: 300%;
-	}
+.border-bg {
+	border-top: 2px solid #f15a22;
+	border-bottom: 2px solid #f15a22;
 }
 .services-bg {
 	background-image: url("../img/bg-trans-1.png"), url("../img/bg4.jpg");
@@ -39,10 +27,9 @@ hr {
 	background-size: cover, cover;
 }
 .services-title {
+	font-size: 180%;
 	color: #ffffff;
-	font-size: 320%;
 	font-weight: 600;
-	text-shadow: 3px 3px 0px black;
 }
 .logo-image {
 	display: block;
@@ -51,10 +38,9 @@ hr {
 	height: 160px;
 }
 .services-text {
+	font-size: 100%;
 	color: #f15a22;
-	font-size:180%;
 	font-weight: 600;
-	text-shadow: 3px 3px 0px black;
 }
 .services-image-left{
 	background-position: center;
@@ -96,8 +82,8 @@ hr {
 	background-color: #001133;
 }
 .header-logo {
-	font-size: 900%;
-	font-weight: 800;
+	font-size: 500%;
+	font-weight: 600;
 }
 .header-section {
 	color: #ffffff;
@@ -114,6 +100,10 @@ hr {
 	border-top: 2px solid #001133;
 	border-bottom: 2px solid #001133;
 }
+.footer-bg {
+	background-color: #000000;
+	color: #ffffff;
+}
 .bg-image-full {
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -122,6 +112,7 @@ hr {
   -o-background-size: cover;
 }
 .sub-header {
+	font-size: 200%;
 	font-weight:600;
 	border-left: 4px solid #f15a22;
 	padding-left: 20px;
@@ -247,4 +238,39 @@ hr {
     transform(scale(.9));
     box-shadow: 0 0 0 0 rgba(#5a99d4, 0);
   }
+}
+
+@media (min-width: 990px) {
+	.header-logo {
+		font-size: 900%;
+		font-weight: 800;
+	}
+	.hedaer-subtext {
+		font-size: 300%;
+		font-weight: 600;
+	}
+	.sub-header {
+		font-size: 300%;
+	}
+	.services-title {
+		font-size: 300%;
+	}
+	.services-text {
+		font-size: 200%;
+	}
+
+}
+@media (max-width: 990px) {
+	.services-image-left {
+		display: none;
+	}
+	.services-image-right {
+		display: none;
+	}
+	.header-logo {
+		font-size: 500%;
+	}
+	.header-subtext {
+		font-size: 200%;
+	}
 }
