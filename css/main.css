@@ -88,9 +88,10 @@ hr {
 .header-bg {
 	background-image: url("../img/bg1.jpg");
 	background-attachment:fixed;
-	margin-top:-80px;
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
+	margin-top:-80px;
 }
 .header-section {
 	color: #ffffff;
