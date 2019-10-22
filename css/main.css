@@ -88,8 +88,10 @@ hr {
 .header-bg {
 	background-image: url("../img/bg1.jpg");
 	background-attachment:fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
 	background-size: cover;
-	background-repeat: no-repeat;
+	-o-background-size: cover;
 	background-position: 50% 50%;
 	margin-top:-80px;
 }
@@ -111,13 +113,6 @@ hr {
 .footer-bg {
 	background-color: #000000;
 	color: #ffffff;
-}
-.bg-image-full {
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
 }
 .sub-header {
 	font-size: 200%;
