@@ -22,7 +22,6 @@ hr {
 }
 .services-bg {
 	background-image: url("../img/bg-trans-1.png"), url("../img/bg4.jpg");
-	background-attachment: scroll, fixed;
 	background-repeat: no-repeat, no-repeat;
 	background-size: cover, cover;
 }
@@ -35,6 +34,7 @@ hr {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: -50px;
 	height: 160px;
 }
 .services-text {
@@ -88,7 +88,7 @@ hr {
 .header-bg {
 	background-image: url("../img/bg1.jpg");
 	background-position: 50% 50%;
-	background-attachment:fixed;
+	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -244,6 +244,12 @@ hr {
 }
 
 @media (min-width: 990px) {
+	.header-bg {
+		background-attachment:fixed;
+	}
+	.services-bg {
+		background-attachment: scroll, fixed;
+	}
 	.header-logo {
 		font-size: 900%;
 		font-weight: 800;
@@ -265,10 +271,16 @@ hr {
 }
 @media (max-width: 990px) {
 	.services-image-left {
-		display: none;
+		height: 160px;
+		width: 300px;
+		margin: auto;
+		background-size: cover;
 	}
 	.services-image-right {
-		display: none;
+		height: 160px;
+		width: 300px;
+		margin: auto;
+		background-size: cover;
 	}
 	.header-logo {
 		font-size: 500%;
